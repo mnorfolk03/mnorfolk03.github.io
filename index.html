@@ -1,41 +1,72 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <meta name="theme-color" content="#28ad71">
+    </head>
+    <body>
 
-<body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+        <!-- Add your site or application content here -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+        <div>
+            <img src="img/me.png" alt="" id="me">
+            <h1>Maxwell Norfolk</h1>
+            <p>
+                Ph.D. Student at Penn State University<br/>
+                Email: <a href="mailto:mnorfolk@psu.edu">mnorfolk@psu.edu</a>
+                <button onclick="copyEmail"><span class="material-symbols-outlined"
+                                                  style="font-size:14px">content_copy</span>
+                </button>
+                <br/>
+                Github: <a href="https://www.github.com/mnorfolk03">mnorfolk03</a>
+            </p>
+        </div>
+        <br/>
+        <h2>Bio</h2>
+        <p>Maxwell Norfolk a graduate student at Penn State University currently pursuing a Ph.D. in Computer
+            Science and Engineering. His primary research interests are in Database Systems and Compilers. He previously
+            attended <a href="https://www.bloomu.edu">Bloomsburg University</a>, where he published an article into the
+            <a href="https://scholar.rose-hulman.edu/rhumj/vol22/iss1/9/">Rose-Hulman Undergraduate
+                Mathematics Journal.</a>
+        </p>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
+        TODO set this up-->
+        <script>
+            window.ga = function () {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('set', 'transport', 'beacon');
+            ga('send', 'pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async></script>
+    </body>
 
 </html>

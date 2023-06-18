@@ -1,0 +1,23 @@
+/* my custom stylesheet*/
+
+h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#me {
+    width: 128px;
+    height: 128px;
+    float: left;
+    padding-right: 10px;
+}
